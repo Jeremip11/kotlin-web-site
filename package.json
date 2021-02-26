@@ -35,7 +35,7 @@
     "monkberry-loader": "4.0.8",
     "mustache-loader": "1.0.0",
     "node-sass": "^4.5.3",
-    "nunjucks": "^3.0.1",
+    "nunjucks": "^3.2.3",
     "nunjucks-loader": "^2.4.8",
     "postcss-loader": "^2.0.6",
     "query-string": "3.0.0",
