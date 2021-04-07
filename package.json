@@ -15,7 +15,7 @@
     "codemirror": "5.39.0",
     "core-js": "^2.4.1",
     "cross-env": "1.0.7",
-    "css-loader": "0.21.0",
+    "css-loader": "1.0.0",
     "debounce": "1.0.2",
     "event-emitter": "0.3.4",
     "exports-loader": "^0.6.3",
