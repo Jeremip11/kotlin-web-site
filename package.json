@@ -32,7 +32,7 @@
     "monkberry": "4.0.8",
     "monkberry-directives": "4.0.8",
     "monkberry-events": "4.0.8",
-    "monkberry-loader": "4.0.8",
+    "monkberry-loader": "4.0.9",
     "mustache-loader": "1.0.0",
     "node-sass": "^4.5.3",
     "nunjucks": "^3.0.1",

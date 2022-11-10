@@ -4029,11 +4029,12 @@ monkberry-events@4.0.8:
   dependencies:
     dom-delegate "^2.0.3"
 
-monkberry-loader@4.0.8:
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/monkberry-loader/-/monkberry-loader-4.0.8.tgz#532f3188b73dc9f1f304d649ae8f3509146b1dd6"
+monkberry-loader@4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/monkberry-loader/-/monkberry-loader-4.0.9.tgz#896c1b0d6c23e40af9d1ccf4eab2f0b83e1dc780"
+  integrity sha512-m3gWFqX0ElE8DCTqHQGTJPGaP+zexpXLDLcE7tbM3wjMZBCM0iXYa2t0HEfuruI0Tu5V6I6dEcEkz9GENW/+Rw==
   dependencies:
-    loader-utils "^0.2.15"
+    loader-utils "^1.1.0"
 
 monkberry@4.0.8:
   version "4.0.8"
