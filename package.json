@@ -35,7 +35,7 @@
     "monkberry-loader": "4.0.8",
     "mustache-loader": "1.0.0",
     "node-sass": "^4.5.3",
-    "nunjucks": "^3.0.1",
+    "nunjucks": "^3.2.1",
     "nunjucks-loader": "^2.4.8",
     "postcss-loader": "^2.0.6",
     "query-string": "3.0.0",
@@ -50,7 +50,8 @@
     "url-loader": "0.5.7",
     "url-search-params": "0.6.1",
     "webpack": "^3.5.4",
-    "whatwg-fetch": "2.0.2"
+    "whatwg-fetch": "2.0.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "glob": "7.1.1",
@@ -61,6 +62,9 @@
   "scripts": {
     "build": "webpack --bail",
     "postinstall": "cd node_modules/codemirror && rollup -c",
-    "start": "webpack-dev-server"
-  }
+    "start": "webpack-dev-server",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
